@@ -14,7 +14,7 @@ export default function Home() {
                 <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" />
               </svg>
             </div>
-            <span className="text-2xl text-black font-bold">maybe</span>
+            <span className="text-2xl text-black font-bold tracking-tight">Animode</span>
           </div>
           <span className="text-xs uppercase tracking-wider text-gray-400">
             in early access now
@@ -27,7 +27,7 @@ export default function Home() {
         {/* Main Headline */}
         <div className="mb-8 text-center">
           <h1 className="mb-4 main-text text-4xl text font-bold leading-tight tracking-tight text-black md:text-5xl ">
-            Your business,
+            Motion design,
             <br />
             in plain English.
           </h1>
@@ -36,9 +36,9 @@ export default function Home() {
         {/* CTA Button */}
         <div className="mb-16 text-center">
           <button className="mb-3 rounded-full bg-black px-8 py-4 text-base font-medium text-white transition-all hover:bg-gray-800">
-            Start your free trial now
+            Start creating for free
           </button>
-          <p className="text-sm text-gray-500">Just $50/mo after your trial</p>
+          <p className="text-sm text-gray-500">No design skills or credit card required.</p>
         </div>
 
         {/* Feature Cards */}
@@ -47,18 +47,18 @@ export default function Home() {
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-gray-500">
           <p className="mb-2">
-            Looking for the personal finance version of Maybe?{" "}
-            <a href="#" className="underline hover:text-gray-700">
-              Find the repository here
+            Looking for inspiration?{" "}
+            <a href="/explore" className="underline hover:text-gray-700">
+              Explore the community feed
             </a>
             .
           </p>
           <div className="flex justify-center gap-4">
-            <a href="#" className="hover:text-gray-700">
+            <a href="/privacy" className="hover:text-gray-700">
               Privacy
             </a>
             <span>·</span>
-            <a href="#" className="hover:text-gray-700">
+            <a href="/terms" className="hover:text-gray-700">
               Terms
             </a>
           </div>

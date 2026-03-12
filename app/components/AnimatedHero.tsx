@@ -10,15 +10,15 @@ export default function AnimatedHero() {
 
   // Split the text into segments
   const textSegments = [
-    "No SQL.",
-    "No spreadsheets.",
-    "No formulas.",
-    "No long setup.",
-    "No learning curve.",
-    "No four hour tutorials.",
-    "No rows.",
-    "No bloat.",
-    "No analysts.",
+    "No keyframes.",
+    "No After Effects.",
+    "No expressions.",
+    "No complex setups.",
+    "No design skills.",
+    "No five-hour projects.",
+    "No freelancers.",
+    "No friction.",
+    "No agencies.",
     "No waiting.",
   ];
 
