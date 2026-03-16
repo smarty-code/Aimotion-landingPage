@@ -55,6 +55,15 @@ export default function Home() {
             <a href="/terms" className="hover:text-gray-700">
               Terms
             </a>
+            <span>·</span>
+            <a
+              href="https://www.linkedin.com/in/jeet-pramanik/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-700"
+            >
+              Talk to the founder
+            </a>
           </div>
         </div>
       </main>
