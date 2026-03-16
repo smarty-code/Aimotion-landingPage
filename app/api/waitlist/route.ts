@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
     });
 
     return NextResponse.json(
-      { success: true, message: "You're on the list! 🎉" },
+      { success: true, message: "You're on the list!" },
       { status: 201 }
     );
   } catch (error) {
