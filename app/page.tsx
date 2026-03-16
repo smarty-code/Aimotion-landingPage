@@ -1,4 +1,5 @@
 import AnimatedHero from "./components/AnimatedHero";
+import WaitlistForm from "./components/WaitlistForm";
 
 export default function Home() {
   return (
@@ -33,12 +34,9 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* CTA Button */}
+        {/* Waitlist CTA */}
         <div className="mb-16 text-center">
-          <button className="mb-3 rounded-full bg-black px-8 py-4 text-base font-medium text-white transition-all hover:bg-gray-800">
-            Start creating for free
-          </button>
-          <p className="text-sm text-gray-500">No design skills or credit card required.</p>
+          <WaitlistForm />
         </div>
 
         {/* Feature Cards */}
@@ -47,11 +45,7 @@ export default function Home() {
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-gray-500">
           <p className="mb-2">
-            Looking for inspiration?{" "}
-            <a href="/explore" className="underline hover:text-gray-700">
-              Explore the community feed
-            </a>
-            .
+            Early access is limited, secure your spot before we launch.
           </p>
           <div className="flex justify-center gap-4">
             <a href="/privacy" className="hover:text-gray-700">
